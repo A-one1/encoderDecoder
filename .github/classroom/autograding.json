@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Test encode with string and zero offset",
+      "setup": "",
+      "run": "gradle test --tests TestEncoder.testEncode",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test encode method with non-zero offset",
+      "setup": "",
+      "run": "gradle test --tests TestEncoder.testEncodeWithOffset",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test decode array and zero offset",
+      "setup": "",
+      "run": "gradle test --tests TestDecoder.testDecode",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test decode with non-zero offset",
+      "setup": "",
+      "run": "gradle test --tests TestDecoder.testDecodeWithOffset",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 3
+    }
+  ]
+}
